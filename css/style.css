@@ -81,3 +81,94 @@ p {
 .row img {
   margin-bottom: -40px;
 }
+/* Start feature */
+.jum {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.look h2 {
+  color: black;
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-align: right;
+}
+.look p {
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: right;
+}
+.foot img {
+  width: 100%;
+  max-width: 480px;
+  vertical-align: bottom; /* محاذات الصورة مع النص*/
+}
+.look > a {
+  border-radius: 40px;
+  background-color: #192440;
+  border: 1px solid #192440;
+  padding: 6px 26px 10px 26px;
+  text-decoration: none;
+  margin-top: 30px;
+  color: white;
+}
+.look > a:hover{
+  color: #192440;
+  background-color: white;
+  border: 2px solid #192440;
+}
+/* end feature*/
+/* Start back */
+.green {
+  background: linear-gradient(194deg, #ffffff 39%, #00FFAD 0); /* طريقة عمل الحلفية المائلة خلف العناصر*/
+}
+
+.rrr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: 85px;
+  padding-right: 85px;
+  margin-left: 85px;
+  margin-right: 85px;
+  line-height: 1px;
+}
+.back-g h2 {
+  color: black;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+.back-g p {
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.back-i img {
+  width: 100%;
+  max-width: 480px;
+  vertical-align: bottom; /* محاذات الصورة مع النص*/
+}
+.back-g > a {
+  border-radius: 40px;
+  background-color: #192440;
+  border: 1px solid #192440;
+  padding: 6px 26px 10px 26px;
+  text-decoration: none;
+  margin-top: 30px;
+  color: white;
+}
+.back-g > a:hover{
+  color: #192440;
+  background-color: white;
+  border: 2px solid #192440;
+}
+.backk {
+  margin-bottom: 100px;
+
+}
